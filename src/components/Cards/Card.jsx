@@ -16,16 +16,24 @@ function Card({ data }) {
                     <div className='flex items-center justify-between py-[7px] px-5 ' >
                         <h5>{data.filesize}</h5>
                         <span className='w-7 h-6 bg-sky-400 rounded-full flex items-center justify-center'>
-
                             {data.close ? <IoClose /> : <LuDownload size=".9em" color='#ffffff' />}
-
                         </span>
-
                     </div>
 
-                    <div className="progress-tag w-full text-sm text-center font-semibold py-3 bg-green-600 text-white ">
-                        { }
-                    </div>
+
+                    {/* {data.tag.isOpen ? (
+                        <div className="progress-tag w-full text-sm text-center font-semibold py-3 bg-green-600 text-white ">
+                            Download now
+                        </div>
+                    ) : null} */}
+
+
+                    {data.tag.isOpen && (
+                        <div className="progress-tag w-full text-sm text-center font-semibold py-3 bg-green-600 text-white ">
+                            Download now
+                        </div>
+                    )}
+
 
                 </div>
 
