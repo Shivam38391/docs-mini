@@ -13,37 +13,37 @@ function Foreground() {
             desc: "lorem react awesomenis",
             filesize: ".9mb",
             close: true,
-            tag: { isOpen: true, tagTitle: "download Now" ,  tagColor: "green"}
+            tag: { isOpen: true, tagTitle: "download Now", tagColor: "green" }
         },
         {
             desc: "lorem django",
             filesize: ".9mb",
             close: true,
-            tag: { isOpen: true, tagTitle: "download Now" ,  tagColor: "green"}
+            tag: { isOpen: true, tagTitle: "download Now", tagColor: "green" }
         },
         {
             desc: "loren Next js",
             filesize: ".9mb",
             close: true,
-            tag: { isOpen: true, tagTitle: "uploaded" ,  tagColor: "blue"}
+            tag: { isOpen: true, tagTitle: "uploaded", tagColor: "blue" }
         },
         {
             desc: "Todo app",
             filesize: ".9mb",
             close: true,
-            tag: { isOpen: true, tagTitle: "uploaded" ,  tagColor: "blue"}
+            tag: { isOpen: true, tagTitle: "uploaded", tagColor: "blue" }
         },
         {
             desc: "loren web development",
             filesize: ".9mb",
             close: true,
-            tag: { isOpen: true, tagTitle: "uploaded" ,  tagColor: "blue"}
+            tag: { isOpen: true, tagTitle: "uploaded", tagColor: "blue" }
         },
         {
             desc: "loren hgdhgsD HGDWGH",
             filesize: ".9mb",
             close: false,
-            tag: { isOpen: false, tagTitle: "download Now" ,  tagColor: "red"}
+            tag: { isOpen: false, tagTitle: "download Now", tagColor: "red" }
         },
 
 
@@ -54,9 +54,9 @@ function Foreground() {
 
             <div ref={ref} className='foreground z-[3] fixed w-full h-full flex gap-10 flex-wrap p-8' >
 
-                { data.map((item, index) => (
-                    <Card data= {item}  reference= {ref}/>
-                ) ) }
+                {data.map((item, index) => (
+                    <Card data={item} reference={ref} />
+                ))}
 
             </div>
 
