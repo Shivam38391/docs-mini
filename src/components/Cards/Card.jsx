@@ -5,10 +5,10 @@ import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion"
 
 
-function Card({ data , reference }) {
+function Card({ data, reference }) {
     return (
         <>
-            <motion.div drag dragConstraints={reference} whileDrag={{scale:1.1}} dragElastic={.2}  dragTransition={{ bounceStiffness: 100, bounceDamping: 10 }} className=" relative flex-shrink-0 cards w-60 h-72  bg-zinc-800 rounded-[48px] px-5 py-10 text-white overflow-hidden">
+            <motion.div drag dragConstraints={reference} whileDrag={{ scale: 1.1 }} dragElastic={.2} dragTransition={{ bounceStiffness: 100, bounceDamping: 10 }} className=" relative flex-shrink-0 cards w-60 h-72 bg-slate-50 dark:bg-slate-800 dark:text-white dark:border-white  rounded-[48px] px-5 py-10 overflow-hidden border-2 border-solid   border-cyan-900 ">
 
                 <FaRegFileAlt />
                 <p className='text  leading-tight mt-5'>{data.desc}</p>
@@ -30,9 +30,9 @@ function Card({ data , reference }) {
 
 
                     {data.tag.isOpen && (
-                        <div style={{background: `${data.tag.tagColor}`}} className= {`  progress-tag w-full text-sm text-center font-semibold py-3 text-white`} >
-                            
-                            { data.tag.tagTitle }
+                        <div style={{ background: `${data.tag.tagColor}` }} className={`  progress-tag w-full text-sm text-center font-semibold py-3 text-white`} >
+
+                            {data.tag.tagTitle}
 
                         </div>
                     )}

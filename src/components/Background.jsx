@@ -6,9 +6,10 @@ function Background() {
 
 
             <div className='fixed w-full h-screen  z-[2]'>
-                <header className=' w-full  py-4  flex justify-center text-xl text-white '> Documents</header>
-                <h1 className='text-[10vw] text-white  leading-none tracking-tighter absolute top-1/2  left-1/2 -translate-x-[50%] -translate-y-[50%] font-semibold ' > Doc mini. </h1>
+                <header className=' w-full  py-4  flex justify-center text-xl  font-extrabold  bg-slate-400 dark:text-black'> Documents</header>
+                <h1 className='text-[10vw]  dark:text-white  leading-none tracking-tighter absolute top-1/2  left-1/2 -translate-x-[50%] -translate-y-[50%] font-semibold ' > Doc mini. </h1>
             </div>
+
         </>
     )
 }
