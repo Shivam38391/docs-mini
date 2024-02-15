@@ -10,19 +10,31 @@ function Foreground() {
     const data = [
 
         {
-            desc: "loren hgdhgsD HGDWGH",
+            desc: "lorem react awesomenis",
             filesize: ".9mb",
             close: true,
             tag: { isOpen: true, tagTitle: "download Now" ,  tagColor: "green"}
         },
         {
-            desc: "loren hgdhgsD HGDWGH",
+            desc: "lorem django",
             filesize: ".9mb",
             close: true,
             tag: { isOpen: true, tagTitle: "download Now" ,  tagColor: "green"}
         },
         {
-            desc: "loren hgdhgsD HGDWGH",
+            desc: "loren Next js",
+            filesize: ".9mb",
+            close: true,
+            tag: { isOpen: true, tagTitle: "uploaded" ,  tagColor: "blue"}
+        },
+        {
+            desc: "Todo app",
+            filesize: ".9mb",
+            close: true,
+            tag: { isOpen: true, tagTitle: "uploaded" ,  tagColor: "blue"}
+        },
+        {
+            desc: "loren web development",
             filesize: ".9mb",
             close: true,
             tag: { isOpen: true, tagTitle: "uploaded" ,  tagColor: "blue"}
